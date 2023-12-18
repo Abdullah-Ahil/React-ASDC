@@ -18,3 +18,28 @@
     justify-content: space-between;
     align-items: center;
 }
+.form{
+    /* padding: 1vh; */
+    height: 25vh;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    /* gap: ; */
+    text-align: center;
+}
+.form input{
+    padding: 1vh 1vw;
+    /* width: 70%; */
+}
+.password{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.password i{
+    position: absolute;
+    right: 0.3vw;
+    /* text-align: center; */
+}

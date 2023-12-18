@@ -1,6 +1,12 @@
 import './Form.css'
+// import { useState } from 'react';
+
+// import './index.css'
 
 function Form() {
+
+// const [action,setac]
+
   return (
     <div className="wrapper">
       <div className="content">
