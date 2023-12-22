@@ -1,0 +1,27 @@
+
+.signup{
+    width: 18vw;
+    /* padding: 1vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* height: 30vh; */
+    /* border: 1px solid black; */
+    /* height: 100px; */
+
+}
+.signup .line{
+    border: 1px solid gray;
+    width: 100%;
+    /* height: 20px; */
+    /* background-color: blue; */
+}
+.signup span{
+    padding: 1vh;
+    position: absolute;
+    background-color: white;
+    /* z-index: 2; */
+    color: gray;
+    border-radius: 1vh;
+}
