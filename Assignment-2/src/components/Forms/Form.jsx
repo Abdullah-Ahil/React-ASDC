@@ -1,4 +1,5 @@
 import Signin from "../signin/Signin";
+import Signwith from "../signopts/Signwith";
 import "./Form.css";
 // import { useState } from 'react';
 
@@ -29,11 +30,12 @@ function Form() {
           </div>
           <button className="btn">Masuk</button>
           <span>
-            already have an account? <a href="">click here</a>
+            Lupa kata sandi? <a href="">klik disini</a>
           </span>
         </form>
       </div>
       <Signin/>
+      <Signwith/>
     </div>
     
   );

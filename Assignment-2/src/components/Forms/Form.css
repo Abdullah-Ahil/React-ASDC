@@ -28,7 +28,11 @@
     align-items: center;
 }
 .menu h3{
-    color: black;
+    color: gray;
+}
+.menu a{
+    color: var(--prim-col);
+    text-decoration: none;
 }
 .form{
     height: 70%;
@@ -44,6 +48,10 @@
 }
 .form span{
     color: black;
+}
+.form span a{
+    color: var(--prim-col);
+    text-decoration: none;
 }
 .password , .name{
     position: relative;
