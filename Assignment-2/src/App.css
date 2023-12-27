@@ -14,3 +14,26 @@
   box-sizing: border-box;
 }
 
+.container{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+  /* background-color: aqua; */
+  position: relative;
+}
+.travling{
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  color: var(--prim-col);
+}
+
+.copy{
+  position: absolute;
+  bottom: 8%;
+  left: 12%;
+  color: gray;
+}

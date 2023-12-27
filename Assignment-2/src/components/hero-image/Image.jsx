@@ -2,7 +2,7 @@ import './Image.css'
 
 function Image() {
   return (
-    <div className='wrapper'>
+    <div className='wrapper2'>
       <div className="glass">
         <h1 className='heading'>Start your journey by one click, explore beautiful world!</h1>
         <div className="img">

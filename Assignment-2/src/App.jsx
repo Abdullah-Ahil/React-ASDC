@@ -9,12 +9,14 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-     {/* <Form /> */}
+    <div className='container'>
+      <h2 className="travling">Travling!</h2>
+     <Form />
   {/* <Signin/> */}
   {/* <Signwith/> */}
   <Image/>
-  </>
+  <span className='copy'>© 2021 Travling. All Rights Reserved</span>
+  </div>
   )
 }
 
